@@ -1,6 +1,6 @@
-text=input("Hai apa kabar?").lower().strip()
+text=input("Hello?").lower().strip()
 
-if text[0:5]=="hello":
+if "hello" in text:
     print("Thank you for 0$")
 elif text[0]=="h":
     print("This is your 20$")
